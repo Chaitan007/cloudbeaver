@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 11
+Build-Time: 202110231751
+Built-By: dbeaver.com
+Created-By: dbeaver.com
+

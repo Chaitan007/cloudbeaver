@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="io.cloudbeaver.ce.drivers.feature"
+      label="Cloudbeaver CE 3rd Party Drivers"
+      version="1.0.58.202110231751"
+      provider-name="DBeaver Corp">
+
+   <plugin id="io.cloudbeaver.resources.drivers.base" download-size="1" install-size="2" version="1.0.35.202110231751"/>
+
+</feature>

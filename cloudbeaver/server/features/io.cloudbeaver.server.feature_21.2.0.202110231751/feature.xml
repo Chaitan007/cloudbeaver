@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+        id="io.cloudbeaver.server.feature"
+        label="%featureName"
+        version="21.2.0.202110231751"
+        provider-name="%providerName"
+        plugin="io.cloudbeaver.server">
+
+    <description>
+        %description
+    </description>
+
+    <copyright>
+        %copyright
+    </copyright>
+
+    <requires>
+        <import plugin="org.eclipse.core.resources" version="0.0.0" match="greaterOrEqual"/>
+        <import plugin="org.eclipse.core.runtime" version="3.7" match="greaterOrEqual"/>
+        <!-- Equinox -->
+        <import plugin="org.eclipse.equinox.launcher" version="0.0.0" match="greaterOrEqual"/>
+        <import plugin="org.eclipse.equinox.common" version="0.0.0" match="greaterOrEqual"/>
+        <import plugin="org.eclipse.equinox.event" version="0.0.0" match="greaterOrEqual"/>
+        <import plugin="org.eclipse.equinox.preferences" version="0.0.0" match="greaterOrEqual"/>
+        <import plugin="org.eclipse.equinox.registry" version="0.0.0" match="greaterOrEqual"/>
+        <import plugin="org.eclipse.osgi.compatibility.state" version="0.0.0" match="greaterOrEqual"/>
+        <!-- Main Equinox service provider -->
+        <import plugin="org.apache.felix.scr" version="0.0.0" match="greaterOrEqual"/>
+    </requires>
+
+    <includes id="org.jkiss.dbeaver.runtime.feature" version="21.2.3.202110231751"/>
+    <includes id="org.jkiss.dbeaver.db.feature" version="1.0.58.202110231751"/>
+
+    <plugin id="io.cloudbeaver.server" download-size="313" install-size="735" version="21.2.0.202110231751" unpack="false"/>
+    <plugin id="io.cloudbeaver.service.admin" download-size="30" install-size="76" version="1.0.34.202110231751" unpack="false"/>
+    <plugin id="io.cloudbeaver.service.auth" download-size="13" install-size="27" version="1.0.34.202110231751" unpack="false"/>
+    <plugin id="io.cloudbeaver.service.data.transfer" download-size="21" install-size="47" version="1.0.35.202110231751" unpack="false"/>
+    <plugin id="io.cloudbeaver.service.metadata" download-size="5" install-size="7" version="1.0.38.202110231751" unpack="false"/>
+
+    <!-- Extra plugins -->
+    <plugin id="org.jkiss.dbeaver.data.office" download-size="21" install-size="52" version="1.1.105.202110231751" unpack="false"/>
+    <plugin id="org.jkiss.bundle.apache.poi" download-size="15621" install-size="18493" version="4.1.1"/>
+    <plugin id="org.jkiss.dbeaver.net.ssh" download-size="53" install-size="81" version="1.0.88.202110231751" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.net.ssh.sshj" download-size="8" install-size="16" version="1.0.88.202110231751" unpack="false"/>
+
+    <!-- 3rd party deps -->
+    <plugin id="com.ibm.icu.base" download-size="181" install-size="380" version="58.2.0.v20170418-1837" unpack="false"/>
+    <plugin id="javax.servlet" download-size="108" install-size="210" version="3.1.0.v201410161800" unpack="false"/>
+    <plugin id="org.eclipse.jetty.server" download-size="769" install-size="1640" version="10.0.6" unpack="false"/>
+    <plugin id="org.eclipse.jetty.servlet" download-size="171" install-size="376" version="10.0.6" unpack="false"/>
+    <plugin id="org.eclipse.jetty.util" download-size="561" install-size="1115" version="10.0.6" unpack="false"/>
+    <plugin id="com.google.gson" download-size="262" install-size="522" version="2.8.7.v20210624-1215" unpack="false"/>
+    <plugin id="org.jkiss.bundle.graphql.java" download-size="1857" install-size="2016" version="12.1.1" unpack="false"/>
+
+</feature>

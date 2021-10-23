@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+        id="io.cloudbeaver.sample.feature"
+        label="%featureName"
+        version="1.0.38.202110231751"
+        provider-name="%providerName">
+
+    <description>
+        %description
+    </description>
+
+    <copyright>
+        %copyright
+    </copyright>
+
+    <license url="%licenseURL">
+        %license
+    </license>
+
+    <plugin id="io.cloudbeaver.connect.provider.sample" download-size="3" install-size="4" version="1.0.38.202110231751" unpack="false"/>
+
+</feature>

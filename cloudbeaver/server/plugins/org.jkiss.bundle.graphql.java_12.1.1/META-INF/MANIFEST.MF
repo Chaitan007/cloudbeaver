@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.0
+Build-Jdk-Spec: 11
+Bundle-ManifestVersion: 2
+Bundle-Name: GraphQL Java
+Bundle-SymbolicName: org.jkiss.bundle.graphql.java;singleton:=true
+Bundle-Version: 12.1.1
+Bundle-ClassPath: lib/antlr4-runtime-4.7.2.jar,lib/graphql-java-12.0.jar
+ ,lib/java-dataloader-2.1.1.jar,lib/reactive-streams-1.0.2.jar,lib/graph
+ ql-java-extended-scalars-1.0.jar,lib/okhttp-3.2.0.jar,lib/okio-1.6.0.ja
+ r
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Vendor: Andreas Marek and Contributors
+Eclipse-BundleShape: dir
+Export-Package: graphql,graphql.analysis,graphql.cachecontrol,graphql.ex
+ ecution,graphql.execution.instrumentation,graphql.execution.instrumenta
+ tion.parameters,graphql.introspection,graphql.language,graphql.nextgen,
+ graphql.parser,graphql.relay,graphql.schema,graphql.schema.idl,graphql.
+ util,graphql.validation,graphql.scalars
+Import-Package: org.slf4j
+

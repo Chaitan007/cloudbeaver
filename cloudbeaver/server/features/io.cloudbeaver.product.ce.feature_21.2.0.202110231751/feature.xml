@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+        id="io.cloudbeaver.product.ce.feature"
+        label="%featureName"
+        version="21.2.0.202110231751"
+        provider-name="%providerName"
+        plugin="io.cloudbeaver.product.ce">
+
+    <description>
+        %description
+    </description>
+
+    <copyright>
+        %copyright
+    </copyright>
+
+    <license url="%licenseURL">
+        %license
+    </license>
+
+    <includes id="io.cloudbeaver.server.feature" version="21.2.0.202110231751"/>
+    <includes id="io.cloudbeaver.sample.feature" version="1.0.38.202110231751"/>
+    <includes id="io.cloudbeaver.ce.drivers.feature" version="1.0.58.202110231751"/>
+
+    <plugin id="io.cloudbeaver.product.ce" download-size="1" install-size="1" version="21.2.0.202110231751" unpack="false"/>
+
+</feature>

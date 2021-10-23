@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1635011643274" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="io.cloudbeaver.product.ce.feature" version="21.2.0.202110231751" url="features/io.cloudbeaver.product.ce.feature_21.2.0.202110231751/" plugin-identifier="io.cloudbeaver.product.ce">
+		</feature>
+		<feature id="io.cloudbeaver.server.feature" version="21.2.0.202110231751" url="features/io.cloudbeaver.server.feature_21.2.0.202110231751/" plugin-identifier="io.cloudbeaver.server">
+		</feature>
+		<feature id="org.jkiss.dbeaver.db.feature" version="1.0.58.202110231751" url="features/org.jkiss.dbeaver.db.feature_1.0.58.202110231751/">
+		</feature>
+		<feature id="io.cloudbeaver.sample.feature" version="1.0.38.202110231751" url="features/io.cloudbeaver.sample.feature_1.0.38.202110231751/">
+		</feature>
+		<feature id="io.cloudbeaver.ce.drivers.feature" version="1.0.58.202110231751" url="features/io.cloudbeaver.ce.drivers.feature_1.0.58.202110231751/">
+		</feature>
+		<feature id="org.jkiss.dbeaver.runtime.feature" version="21.2.3.202110231751" url="features/org.jkiss.dbeaver.runtime.feature_21.2.3.202110231751/" plugin-identifier="org.jkiss.dbeaver.model">
+		</feature>
+	</site>
+</config>
